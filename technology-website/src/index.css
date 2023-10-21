@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  font-family: "Sofia Sans Condensed", sans-serif;
+}
+
+section {
+  font-family: "Montserrat", sans-serif;
+}

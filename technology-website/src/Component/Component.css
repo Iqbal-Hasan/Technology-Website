@@ -1,0 +1,25 @@
+/* navbar */
+.activeRouter{
+    position: relative;
+}
+.activeRouter::after{
+    content: '';
+    width: 100%;
+    height: 5px;
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background-color: rgb(78, 118, 238);
+}
+.desktop{
+    display: none;
+}
+@media screen and (min-width:872px) {
+    .desktop{
+        display: flex;
+    }
+    .mobile{
+        display: none;
+    }
+}
